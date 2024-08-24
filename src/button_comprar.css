@@ -1,0 +1,18 @@
+.button-comprar {
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    & .button_comprar {
+        background-color: var(--bg-button-tertiary);
+        color: black !important;
+        font-size: 2rem;
+        padding: .625rem;
+        border-radius: 5.625rem;
+        text-decoration: none !important;
+        &:hover {
+            background-color: var(--hover-secondary);
+            border: 2px solid black;
+        }
+    }
+}
