@@ -1,14 +1,22 @@
 import React from 'react';
 import "../index.css";
 import Button_comprar from './button_comprar';
+import facebook from "../assets/icons/icon-facebook.svg";
+import instagram from "../assets/icons/icon-instagran.svg";
+import twitter from "../assets/icons/icon-twitter.svg";
+import youtube from "../assets/icons/icon-youtube.svg";
+import whatsapp from "../assets/icons/icon-whatsapp.svg";
+import email from "../assets/icons/icon-de-mail.svg";
+import mapPin from "../assets/icons/icon-ponto-no-mapa.svg";
+import documentIcon from "../assets/icons/icon-doc.svg";
 
 const Footer = () => {
   return (
     <footer>
-        <Button_comprar></Button_comprar>
+      <Button_comprar />
       <h5>Visual Tech</h5>
       <p>
-        Loja Espacializada em produtos e-commerce <br />
+        Loja Especializada em produtos e-commerce <br />
         Agradecemos sua visita!
       </p>
 
@@ -17,19 +25,19 @@ const Footer = () => {
           <h5>Contato</h5>
           <p>
             <picture>
-              <img src="src/assets/icons/icon-whatsapp.svg" alt="Ícone do whatsapp" />
+              <img src={whatsapp} alt="Ícone do whatsapp" />
             </picture>
             +55 (21) 99999-9999
           </p>
           <p>
             <picture>
-              <img src="src/assets/icons/icon-de-mail.svg" alt="Ícone de mail" />
+              <img src={email} alt="Ícone de mail" />
             </picture>
             visual_tech.com.br
           </p>
           <p>
             <picture>
-              <img src="src/assets/icons/icon-ponto-no-mapa.svg" alt="Ícone de ponto no mapa" />
+              <img src={mapPin} alt="Ícone de ponto no mapa" />
             </picture>
             Rua Fulano de tal, Nº 0101 - Loja A
           </p>
@@ -40,13 +48,13 @@ const Footer = () => {
           <p>CNPJ: 00.000.000/0001-00</p>
           <p>
             <picture>
-              <img src="src/assets/icons/icon-doc.svg" alt="Ícone do documento" />
+              <img src={documentIcon} alt="Ícone do documento" />
             </picture>
             Política de privacidade
           </p>
           <p>
             <picture>
-              <img src="src/assets/icons/icon-doc.svg" alt="Ícone do documento" />
+              <img src={documentIcon} alt="Ícone do documento" />
             </picture>
             Termos de uso
           </p>
@@ -61,10 +69,10 @@ const Footer = () => {
         <div>
           <h5>Redes sociais</h5>
           <ul className="redes-sociais">
-            <li><a href="#"><img src="src/assets/icons/icon-facebook.svg" alt="Facebook" /></a></li>
-            <li><a href="#"><img src="src/assets/icons/icon-instagran.svg" alt="Instagram" /></a></li>
-            <li><a href="#"><img src="src/assets/icons/icon-twitter.svg" alt="Twitter" /></a></li>
-            <li><a href="#"><img src="src/assets/icons/icon-youtube.svg" alt="YouTube" /></a></li>
+            <li><a href="#"><img src={facebook} alt="Facebook" /></a></li>
+            <li><a href="#"><img src={instagram} alt="Instagram" /></a></li>
+            <li><a href="#"><img src={twitter} alt="Twitter" /></a></li>
+            <li><a href="#"><img src={youtube} alt="YouTube" /></a></li>
           </ul>
         </div>
       </div>
