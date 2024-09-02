@@ -33,7 +33,9 @@ footer h5, p{
 
     & .redes-sociais {
         display: flex;
-        width: 50%;
-        justify-content: space-between;
+        width: 100%;
+        justify-items: center;
+        gap: 1rem;
+        justify-content: center;
     }
 }
